@@ -1,0 +1,22 @@
+#header {
+    text-align: center;
+    color: white;
+}
+
+#firstHeader {
+    background-color: skyblue;
+}
+
+#footer {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    table-layout: fixed;
+}
+
+tr, td, th {
+    text-align: center;
+    background-color: gray;
+}
