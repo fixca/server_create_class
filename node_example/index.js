@@ -13,6 +13,17 @@ class Person {
     }
 }
 
+const checkPeople = (array) => {
+    for(let person of array) {
+        if(person.name === "John Doe") {
+            console.log(`Here is your beer, ${person.name} !`);
+        }
+        else {
+            console.log(`Get out fucking here, ${person.name} !`);
+        }
+    }
+}
+
 (() => {
     let array = [];
     array.push(new Person("John Doe", 20));
@@ -21,4 +32,5 @@ class Person {
     array.push(new Person("Chris Doe", 45));
     array.push(new Person("Layla Doe", 37));
     console.log(getAgeAvr(array));
+    checkPeople(array);
 })();
