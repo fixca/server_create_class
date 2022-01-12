@@ -1,0 +1,26 @@
+#inputBox {
+    width: 500px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+#inputBtn {
+    width: 50px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+#deleteAll {
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 3%;
+}
+
+section {
+    background-color: aqua;
+}
+
+#list {
+    font-size: xx-large;
+}
