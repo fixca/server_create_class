@@ -11,7 +11,7 @@ const onButtonClick = () => {
     li.appendChild(document.createTextNode(t0d0));
     // https://opentutorials.org/course/1375/6761
     li.addEventListener('click', e => {
-        e.target.remove();
+        e.target.setAttribute('style', 'text-decoration: line-through');
     });
     list.appendChild(li);
     document.getElementById('inputBox').value = "";
@@ -24,5 +24,12 @@ const onDeleteClick = () => {
     // https://stackoverflow.com/questions/14003606/remove-element-by-tag-name
     while(lists[0]) {
         lists[0].remove();
+    }
+}
+
+const onKey = (e) => {
+    // https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
+    if(e.keyCode == 13) {
+        onButtonClick();
     }
 }
