@@ -19,7 +19,7 @@ const checkPeople = (array) => {
             console.log(`Here is your beer, ${person.name} !`);
         }
         else {
-            console.log(`Get out fucking here, ${person.name} !`);
+            console.log(`Get out here, ${person.name} !`);
         }
     }
 }
