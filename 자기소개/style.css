@@ -114,7 +114,7 @@ a {
 }
 
 .statWrapper {
-    margin: 0% 3% 3% 5%;
+    margin: 3.5% 3% 3% 5%;
 }
 
 .statMeta {
@@ -130,17 +130,16 @@ a {
 }
 
 .scoreChar {
-    margin-left: 25%;
     color: brown;
-    margin-right: 7%;
     font-size: medium;
 }
 
 .scoreNumber {
     color: white;
     font-size: 40px;
-    margin-top: -2.7%;
-    margin-left: -5%;
+    margin-top: -12%;
+    margin-left: 5%;
+    text-align: right;
 }
 
 .summaryBox {
@@ -156,9 +155,15 @@ a {
     color: white;
     font-size: large;
     font-style: italic;
+    text-align: center;
 }
 
 .justText {
     color: white;
     font-size: large;
+}
+
+.scoreWrapper {
+    float: right;
+    margin-bottom: 1.5%;
 }
